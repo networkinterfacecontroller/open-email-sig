@@ -4,19 +4,7 @@ import InputText from 'primevue/inputtext'
 import FieldSet from 'primevue/fieldset'
 import Card from 'primevue/card'
 
-const form = reactive({
-    name: '',
-    role: '',
-    company: '',
-    imgurl: '',
-    email: '', 
-    phone: '',
-    website: '',
-    linkedin: '',
-    instagram: '',
-    facebook: '', 
-    twitter: ''
-})
+import { form } from '../state/form.js'
 
 </script>
 
