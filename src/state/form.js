@@ -4,7 +4,6 @@ export const form = reactive({
     role: '',
     company: '',
     imgurl: '',
-    email: '', 
     phone: '',
     website: '',
     linkedin: '',

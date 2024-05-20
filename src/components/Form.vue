@@ -9,6 +9,8 @@ import { form } from '../state/form.js'
 </script>
 
 <template>
+    <Card>
+        <template #content>
     <div class="flex justify-content-center">
         <div class="card p-fluid">
             <FieldSet legend="Who are you?" class="pt-1">
@@ -35,10 +37,6 @@ import { form } from '../state/form.js'
             
             
             <FieldSet legend="Contact Info" class="pt-1">
-                <div class="field">
-                    <label for="email">Email</label>
-                    <InputText id="email" v-model="form.email" />
-                </div>
                 <div class="field">
                     <label for="phone">Phone</label>
                     <InputText id="phone" v-model="form.phone" />
@@ -70,5 +68,8 @@ import { form } from '../state/form.js'
             
         </div>
     </div>
+
+</template>
+</Card>
    
 </template>
